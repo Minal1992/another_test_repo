@@ -25,7 +25,11 @@ SECRET_KEY = '4ji$p1734(h3s@##ks=dc0daeito#@vii1)_#-)bm#9k_@skf2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# already present in settings file
+# ALLOWED_HOSTS = []
+
+# for allowing host on heroku
+ALLOWED_HOSTS = ['projecttaskapp.herokuapp.com']
 
 
 # Application definition
